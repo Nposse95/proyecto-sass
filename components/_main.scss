@@ -1,0 +1,24 @@
+@import '../base/colores';
+
+main {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color:nth($colores, 2);
+    margin:5px;
+
+    div .divimag {
+    height: 100%;
+    width: 100%;
+    }
+
+    div p {
+        
+        margin: 0%;
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}

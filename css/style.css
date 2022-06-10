@@ -1,0 +1,54 @@
+header {
+  background-color: rgba(0, 0, 0, 0.617);
+  padding: 20px; }
+  header h1 {
+    color: #b76371;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-style: oblique; }
+  header nav ul {
+    display: flex;
+    justify-content: space-around; }
+    header nav ul li {
+      font-size: 2rem;
+      list-style: none;
+      padding: 15px;
+      background-color: black;
+      border: 5px solid #b76371;
+      border-radius: 20px; }
+      header nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #b76371;
+  margin: 5px; }
+  main div .divimag {
+    height: 100%;
+    width: 100%; }
+  main div p {
+    margin: 0%;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+footer {
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.617);
+  border: 3px solid white;
+  border-radius: 5px; }
+  footer nav {
+    display: flex;
+    justify-content: space-around; }
+    footer nav a {
+      color: white;
+      font-size: 3rem; }
+
+body {
+  background-image: url(../imagenes/diamond-zag.png); }
